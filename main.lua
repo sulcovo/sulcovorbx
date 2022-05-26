@@ -10,7 +10,7 @@ Notification:Notify(
 )
 
 local Window = Library.CreateLib("cau, sulcovo! <3    sulcware xd", "Ocean")
-local Tab = Window:NewTab("misc")
+local Tab = Window:NewTab("Local Player")
 local Section = Tab:NewSection("random funkce")
 
 Section:NewSlider("walkspeed", "nastavi rychlost podle slideru", 500, 13, function(s)
